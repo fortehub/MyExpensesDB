@@ -1,2 +1,2 @@
 # MyExpensesDB
-A very basic and simple SQL Server database. I started this project to practice a basic database creation, boost my skills for T-SQL &amp; knowledge on on-premises and cloud.
+A very basic and simple SQL Server database. I started this project to practice my basic database creation knowledge, boost my skills for T-SQL and SQL Server knowledge on on-premises and cloud.
