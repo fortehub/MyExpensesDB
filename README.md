@@ -1,4 +1,4 @@
-**# MyExpensesDB**
+# **MyExpensesDB**
 
 **Introduction**
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -24,30 +24,33 @@ Here's my diagram of the database:
 ------------------------------------------------------------------------------------------------------------------------------------
 **Tables:**
 
-**PyExSvtbl** = table to log my every Cut-off/PayDay salary. Here in my home country, the typical Cut-off/PayDay salary is every 15th and last of day of the month. This was the setup of my previous job. My current job (as of March 2022), my Cut-off/PayDay salary is every 10th and 25th of the Month. This table also serve to compute my per Cut-off/PayDay expenses (how much money I spent) and savings (how money I saved). 
+**_PyExSvtbl_** = table to log my every Cut-off/PayDay salary. Here in my home country, the typical Cut-off/PayDay salary is every 15th and last of day of the month. This was the setup of my previous job. My current job (as of March 2022), my Cut-off/PayDay salary is every 10th and 25th of the Month. This table also serve to compute my per Cut-off/PayDay expenses (how much money I spent) and savings (how money I saved). <br/>
+**_Paidtbl_** =  table to list anything that I spend (paid, bought, & etc). <br/>
+**_FrmDepotbl_** =  table to list my expenses directly from my deposit account.<br/>
 
-**Paidtbl** =  table to list anything that I spend (paid, bought, & etc). 
-
-**FrmDepotbl** =  table to list my expenses directly from my deposit account.
 
 
 **Database Creation**
 ----------------------------------------------------------------------------------------------------------------------------------
 
-**Step 1** - Create the database (MyExpensesDB)
+**Step 1** - Create the database (MyExpensesDB). Execute the following SQL statements to create the Database. Script file also uploaded.
 
-USE master;
+USE master;                                                  <br/>
 GO
 
-CREATE DATABASE MyExpensesDB
-ON PRIMARY (
-    NAME = 'MyExpensesDB',   
-    FILENAME = 'D:\MSSQL\DataLogs\MyExpensesDB.mdf',   
-    SIZE = 1024MB, MAXSIZE = UNLIMITED, FILEGROWTH = 64MB   
-)
-LOG ON (
-    NAME = 'MyExpensesDB_log',    
-    FILENAME = 'D:\MSSQL\DataLogs\MyExpensesDB_log.mdf',   
-    SIZE = 64MB, MAXSIZE = UNLIMITED, FILEGROWTH = 64MB
-);
+CREATE DATABASE MyExpensesDB                                  <br/>
+ON PRIMARY (                                                  <br/>
+    NAME = 'MyExpensesDB',                                    <br/>
+    FILENAME = 'D:\MSSQL\DataLogs\MyExpensesDB.mdf',          <br/>
+    SIZE = 1024MB, MAXSIZE = UNLIMITED, FILEGROWTH = 64MB)                                                            
+LOG ON (                                                      <br/>
+    NAME = 'MyExpensesDB_log',                                <br/>
+    FILENAME = 'D:\MSSQL\DataLogs\MyExpensesDB_log.mdf',      <br/>
+    SIZE = 64MB, MAXSIZE = UNLIMITED, FILEGROWTH = 64MB);     <br/>
+
+![image](https://user-images.githubusercontent.com/95063830/157047148-bbbc9cdb-5dac-415f-84f1-14eaaea6d425.png)
+
+Database succesfully created!
+
+![image](https://user-images.githubusercontent.com/95063830/157047315-946e482d-0bb8-4054-83ac-6fe6ab01dfd9.png)
 
