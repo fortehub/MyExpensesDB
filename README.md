@@ -86,7 +86,7 @@ CREATE TABLE dbo.Paidtbl (                                      <br/>
     DatePaid	DATE,                                           <br/>
     PDayDate	DATE,                                           <br/>
 CONSTRAINT  CK_CatName CHECK                                    
-     -- Transportation = Tran                                   <br/>            
+     -- Transportation = Tran                                              
      -- Foods          = Food                                   <br/>
      -- Drinks         = Drnk                                   <br/>
      -- Medicine       = Medc                                      
@@ -135,7 +135,7 @@ CREATE OR ALTER VIEW vw_ExpensesBreakDown AS                <br/>
 ![image](https://user-images.githubusercontent.com/95063830/157197670-cb77473a-23d0-4c1b-af05-28f00dd9aaa6.png)
  <br/>
 
-**Step4** - Create the the stored procedure
+**Step4** - Create the stored procedure
 
 USE MyExpensesDB;                                           <br/>
 GO
