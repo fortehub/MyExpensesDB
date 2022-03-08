@@ -91,3 +91,5 @@ Note: Uploaded sample data (Insert DB Stage Sample data.xlsx)
 **Next Stage**
 -----------------------------------------------------------------------------------------------------------------------------------
 Proceed to "Execute Procedure.md" for the database creation procedures
+<br/>
+https://github.com/fortehub/MyExpensesDB/blob/main/Execute%20Procedure.md
