@@ -39,7 +39,7 @@ Here's my diagram of the database:
 <br/>
 <br/>
 
-**Next Step**
+**Next Stage**
 -----------------------------------------------------------------------------------------------------------------------------------
 Proceedto "Create DB Stage.md" for the database creation procedures
 
