@@ -82,6 +82,11 @@ SELECT COUNT(*) FROM dbo.Paidtbl
 SELECT COUNT(*) FROM dbo.FrmDepotbl
 
 ![image](https://user-images.githubusercontent.com/95063830/157238238-9c65728c-d045-4f71-b260-5da5e3cc6b88.png)
+<br/>
+<br/>
+
+Note: Uploaded sample data (Insert DB Stage Sample data.xlsx)
+
 
 **Next Stage**
 -----------------------------------------------------------------------------------------------------------------------------------
