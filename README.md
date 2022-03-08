@@ -36,5 +36,10 @@ Here's my diagram of the database:
 **Stored Procedures**                                   <br/>
 **_usp_CutOffExpSav_param_** =  stored procedure use for manually updating the expenses and saving per cut-off/payday   <br/>
 <br/>
+<br/>
+<br/>
 
+**Next Step**
+-----------------------------------------------------------------------------------------------------------------------------------
+Proceedto "Create DB Stage.md" for the database creation procedures
 
