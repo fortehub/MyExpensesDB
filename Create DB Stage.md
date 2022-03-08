@@ -126,6 +126,6 @@ GO
  <br/>
 
 
-**Next Step**
+**Next Stage**
 ----------------------------------------------------------------------------------------------------------------------------------
 Database records insertion. Proceed to "Insert DB Stage.md" file
