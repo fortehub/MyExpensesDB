@@ -41,5 +41,5 @@ Here's my diagram of the database:
 
 **Next Stage**
 -----------------------------------------------------------------------------------------------------------------------------------
-Proceedto "Create DB Stage.md" for the database creation procedures
+Executing the stored procedure. Proceed to "Run Stored Proc.md" file.
 
