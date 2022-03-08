@@ -41,5 +41,5 @@ Here's my diagram of the database:
 
 **Next Stage**
 -----------------------------------------------------------------------------------------------------------------------------------
-Executing the stored procedure. Proceed to "Run Stored Proc.md" file.
-
+Executing the stored procedure. Proceed to "Create DB Stage.md.md" file.   <br/>
+https://github.com/fortehub/MyExpensesDB/blob/main/Create%20DB%20Stage.md
