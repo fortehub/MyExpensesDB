@@ -3,7 +3,7 @@
 
 **Introduction**
 ------------------------------------------------------------------------------------------------------------------------------------
- **MyExpensesDB**, a very basic and simple SQL Server database. I started this project to practice my database creation knowledge, boost my skills for T-SQL and SQL Server knowledge on on-premises and cloud. The second purpose of this project, I want a database that I can interact and update everyday. This database will serve as a database to record all my daily bought items, calculate my per cut-off/payday expenses and savings. I will just use Excel with add-ins that will connect to SQL Server and enter records. For my privacy, I will only show the database creation, management, & etc not my personal spending records :)
+ **MyExpensesDB**, a very basic and simple SQL Server database. I started this project to practice my database creation knowledge, boost my skills for T-SQL and SQL Server knowledge on on-premises and cloud. The second purpose of this project, I want a database that I can interact and update everyday. This database will serve as a database to record all my daily bought items, calculate my per cut-off/payday expenses and savings. I will just use Excel with add-ins that will connect to SQL Server and enter records. For my privacy, I will only show the database creation, management, some of my bought items but not my personal salary records :)
 <br/>
 
 **Prerequisites**
