@@ -140,5 +140,5 @@ You'll see that a value of "32" has been subtracted from the last SavAmount.
 **Next Stage**
 -----------------------------------------------------------------------------------------------------------------------------------
 Proceed to "BI Reporting.md" file.
-
+https://github.com/fortehub/MyExpensesDB/blob/main/BI%20Reporting.md
 
