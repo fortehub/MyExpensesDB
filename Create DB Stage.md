@@ -92,7 +92,6 @@ CREATE OR ALTER VIEW vw_ExpensesBreakDown AS                <br/>
     PDayDate	    AS "PayDay Date",                       <br/>
  SUM(AmountPaid)   	AS "Money Spent"                        <br/>
  FROM dbo.Paidtbl                                           <br/>
- WHERE PDayDate >   '12/09/2021'                            <br/>
  GROUP BY ItemName, PaidCount, PaidCount, CatName, DatePaid,PDayDate;       <br/>
 
 ![image](https://user-images.githubusercontent.com/95063830/157197670-cb77473a-23d0-4c1b-af05-28f00dd9aaa6.png)
